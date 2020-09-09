@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.key {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 10rem;
+    margin: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.07s;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
