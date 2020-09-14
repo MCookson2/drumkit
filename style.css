@@ -28,7 +28,7 @@ h1 {
     text-align: center;
     font-size: 1.5rem;
     cursor: pointer;
-    transition: all 0.07s;
+    transition: all 0.1s;
 }
 
 .playing {
